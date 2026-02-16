@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ♻️ CleanZy – Waste Management System
 
 CleanZy is a full-stack **Smart Waste Management platform** built with the MERN stack. It enables citizens to report waste issues and schedule pickups while providing administrators with real-time control and actionable insights.
@@ -135,6 +134,6 @@ This project uses **simulated data logic** for educational and demonstration pur
 ---
 
 ## 👩‍💻 Developed By
-**Neha Jaiswal**  
-B.Tech CSE (Data Science Minor)  
->>>>>>> c191cdb2a2c0fcc8852bd2bedeafd3477bfe7720
+**Chetan Sharma**  
+B.Tech CSE (FULL STACK WEB DEVELOPER)  
+  
