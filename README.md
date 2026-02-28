@@ -1,4 +1,4 @@
-# ♻️ CleanZy – Waste Management System
+# ♻️ CleanZy – Smart Waste Management System
 
 CleanZy is a full-stack **Smart Waste Management platform** built with the MERN stack. It enables citizens to report waste issues and schedule pickups while providing administrators with real-time control and actionable insights.
 
@@ -7,12 +7,15 @@ CleanZy is a full-stack **Smart Waste Management platform** built with the MERN 
 ## 🚀 Features
 
 ### 🧑‍💻 Citizen Dashboard
+- Secure login system
 - Report issues with image upload
 - Schedule waste pickups
 - Track status of issues and pickups
-- View eco-impact and rewards
+- Eco points and CO₂ impact visualization
+- Gamified user engagement
 
 ### 🛠️ Admin Panel
+- Admin authentication
 - View and approve pickup requests
 - Manage issues reported by citizens
 - Toggle system settings (maintenance, feature toggles)
@@ -22,17 +25,7 @@ CleanZy is a full-stack **Smart Waste Management platform** built with the MERN 
 
 ## 📸 Screenshots
 
-### Landing Page  
-![Landing Page](assets/landing.png)
-
-### Citizen Dashboard  
-![Dashboard](assets/dashboard.png)
-
-### Issues Module  
-![Issues](assets/issues.png)
-
-### Admin Settings  
-![Settings](assets/settings.png)
+![Preview](assets/preview.png)
 
 ---
 
@@ -54,86 +47,45 @@ This project follows a **MERN stack architecture**:
 
 ---
 
-## 👥 Team
-
-| Name | Role | LinkedIn | GitHub |
-|------|------|----------|--------|
-| Chetan Sharma | Founder & CEO | https://www.linkedin.com/in/chetansharma3114 | https://github.com/Chetan2324 |
-| Firoj Khan | Co-Founder & Operations | https://www.linkedin.com/in/firoj-khan786 | https://github.com/imfiroj123-gif |
-| Ankit Raj | Co-Founder & Tech Lead | https://www.linkedin.com/in/ankit-raj-006667218 | https://github.com/Ankit-CSE-01 |
-
----
-
 ## 📦 Installation
 
 ### Clone the repo
 ```bash
-git clone https://github.com/Chetan2324/CleanZy-Waste-Management-System.git
-cd CleanZy-Waste-Management-System
-=======
-# CleanZy ♻️  
-A Smart Waste Management System
+git clone https://github.com/Chetan2324/CleanZy-Smart-Waste-Management.git
+cd CleanZy-Smart-Waste-Management
+```
 
-## 🚀 Project Overview
-CleanZy is a civic-tech web application designed to improve urban waste management by enabling citizens to schedule waste pickups, report issues, and track their environmental impact through a clean and intuitive dashboard.
+### Set up environment variables
+```bash
+cp .env.example backend/.env
+# Edit backend/.env with your actual values
+```
 
-This project focuses on **user experience, system design, and frontend-driven logic**, making it ideal for academic evaluation and real-world demonstration.
+### Install backend dependencies
+```bash
+cd backend
+npm install
+npm run dev
+```
 
----
-
-## 🎯 Key Features
-
-### 👤 Citizen Module
-- Secure login system
-- Personalized citizen dashboard
-- Waste pickup scheduling
-- Issue reporting & tracking
-- Eco points and impact visualization
-- Gamified user engagement
-
-### 🛠️ Admin Module
-- Admin authentication
-- Issue monitoring & status updates
-- Pickup management
-- Citizen activity overview
+### Install frontend dependencies
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
 ---
 
-## 🧠 Dashboard Logic
-- Eco Points and CO₂ offset are **derived from simulated user actions**
-- Rankings and levels are **locality-based**
-- No real-time APIs used (safe for demo & viva)
+## 👥 Team
 
----
-
-## 🖥️ Tech Stack
-
-**Frontend**
-- React.js
-- Tailwind CSS
-- JavaScript
-
-**Backend**
-- Node.js
-- Express.js
-- MongoDB (simulated logic)
-
----
-
-## 📸 Screenshots
-Screenshots available in the `/screenshots` folder:
-- Login Page
-- Citizen Dashboard
-- Admin Dashboard
+| Name | Role | LinkedIn | GitHub |
+|------|------|----------|--------|
+| Chetan Sharma | Founder & CEO | [LinkedIn](https://www.linkedin.com/in/chetansharma3114) | [GitHub](https://github.com/Chetan2324) |
+| Firoj Khan | Co-Founder & Operations | [LinkedIn](https://www.linkedin.com/in/firoj-khan786) | [GitHub](https://github.com/imfiroj123-gif) |
+| Ankit Raj | Co-Founder & Tech Lead | [LinkedIn](https://www.linkedin.com/in/ankit-raj-006667218) | [GitHub](https://github.com/Ankit-CSE-01) |
 
 ---
 
 ## ⚠️ Disclaimer
 This project uses **simulated data logic** for educational and demonstration purposes.
-
----
-
-## 👩‍💻 Developed By
-**Chetan Sharma**  
-B.Tech CSE (FULL STACK WEB DEVELOPER)  
-  
